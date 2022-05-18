@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Exit WallPaper
+Exec=bash -c 'killall xwinwrap' &
+Icon=desktop
+Type=Application
+#FIX: DoesNot ShowUp In Compiz Session
+#OnlyShowIn=XFCE;GNOME;
+#NotShowIn=KDE;
